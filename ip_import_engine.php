@@ -412,7 +412,7 @@ class impactpubs_paper {
 			} else {
 				$html .= $this->title.'</span>';
 			}
-			$html .= '</span> &nbsp';
+			$html .= '</span> ';
 
 			//the journal
 			if ( isset($this->journal) ) {
